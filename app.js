@@ -56,6 +56,10 @@ function reset()
      minHeading.innerHTML="0";
      secHeading.innerHTML="0";
      milisecHeading.innerHTML="0";
+     hrs=0;
+     sec=0;
+     min=0;
+     milisec=0;
      var startbtn=document.getElementById("startbtn");
      startbtn.innerHTML="START";
      startbtn.disabled=false;
