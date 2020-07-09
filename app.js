@@ -52,14 +52,15 @@ function stop()
 
 function reset()
 {
-     hrsHeading.innerHTML="0";
-     minHeading.innerHTML="0";
-     secHeading.innerHTML="0";
-     milisecHeading.innerHTML="0";
+     
      hrs=0;
      sec=0;
      min=0;
      milisec=0;
+     hrsHeading.innerHTML=hrs;
+     minHeading.innerHTML=min;
+     secHeading.innerHTML=sec;
+     milisecHeading.innerHTML=milisec;
      var startbtn=document.getElementById("startbtn");
      startbtn.innerHTML="START";
      startbtn.disabled=false;
